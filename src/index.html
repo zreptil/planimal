@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ng-app</title>
+  <base href="/">
+  <meta content='no-cache, no-store, must-revalidate'/>
+  <meta content='no-cache'/>
+  <meta content='0'/>
+  <meta charset='utf-8'>
+  <meta content='width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes' name='viewport'>
+  <meta content="no-referrer-when-downgrade" name="referrer"/>
+  <link href='assets/manifest.json' id='manifest' rel='manifest'>
+  <!--suppress HtmlUnknownTarget -->
+  <link href='./styles.css' rel='stylesheet'>
+  <link href='assets/themes/standard/index.css' id='themestyle' rel='stylesheet'>
+  <link href='assets/themes/standard/favicon.png' id='favicon' rel='icon' type='image/png'>
+  <script src="https://accounts.google.com/gsi/client"></script>
+  <script src="https://apis.google.com/js/api.js"></script>
+</head>
+<body>
+<app-root>
+</app-root>
+<script>
+  const d = new Date();
+  let id = 'webData';
+  if (location.href.indexOf('/beta/') >= 0) {
+    id = `@${id}`;
+  }
+  let suffix = '';
+  let theme = null;
+  try {
+    const data = JSON.parse(window.localStorage[id]);
+    theme = data['w2'];
+  } catch (ex) {
+  }
+  if (theme == null || theme === '') {
+    theme = 'standard';
+  }
+  document.getElementById('themestyle')?.setAttribute('href', 'assets/themes/' + theme + '/index.css');
+  document.getElementById('favicon')?.setAttribute('href', 'assets/themes/' + theme + '/favicon' + suffix + '.png');
+</script>
+</body>
+</html>

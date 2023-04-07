@@ -1,0 +1,44 @@
+<!--
+<button (click)="checkDB()">Mach mal</button>
+<textarea style="width:90vw;height:80vh">{{checkDB()}}</textarea>
+-->
+<div mainpanel>
+  <div toolbar>
+    <div controls>
+      <button (click)="globals.isDebug = !globals.isDebug" *ngIf="globals.mayDebug" id="debug" mat-icon-button>
+        <mat-icon *ngIf="!globals.isDebug">bug_report</mat-icon>
+        <mat-icon *ngIf="globals.isDebug">pest_control</mat-icon>
+      </button>
+      <button (click)="sync.toggleSyncDropbox()" id="sync" mat-icon-button>
+        <ng-container *ngIf="!sync.hasSync">
+          <mat-icon>sync_disabled</mat-icon>
+        </ng-container>
+        <ng-container *ngIf="sync.hasSync">
+          <img alt="dropbox" src="assets/images/dropbox.png">
+        </ng-container>
+      </button>
+      <button (click)="globals.currentPage='news'" id="news" mat-icon-button>
+        <mat-icon>info_outline</mat-icon>
+      </button>
+      <button (click)="globals.currentPage='impressum'" id="impressum" mat-icon-button>
+        <mat-icon>account_balance</mat-icon>
+      </button>
+      <button (click)="globals.currentPage='welcome'" id="welcome" mat-icon-button>
+        <mat-icon>school</mat-icon>
+      </button>
+    </div>
+  </div>
+  <div contentpanel>
+    <div sidebar>
+    </div>
+    <div contentback>
+      <div content>
+        <app-impressum *ngIf="globals.currentPage==='impressum'"></app-impressum>
+        <app-welcome *ngIf="globals.currentPage==='welcome'"></app-welcome>
+        <app-whats-new *ngIf="globals.currentPage==='news'"></app-whats-new>
+      </div>
+    </div>
+  </div>
+</div>
+<app-progress></app-progress>
+<div hidden id="mark"></div>

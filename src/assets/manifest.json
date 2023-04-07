@@ -1,0 +1,17 @@
+{
+  "display": "standalone",
+  "icons": [
+    {
+      "sizes": "176x176",
+      "src": "themes/standard/favicon.png",
+      "type": "image/png"
+    }
+  ],
+  "name": "ng-app",
+  "permissions": [],
+  "prefer_related_applications": true,
+  "related_applications": [],
+  "short_name": "ng-app",
+  "start_url": "/index.html",
+  "url": "https://ng-app.zreptil.de/"
+}

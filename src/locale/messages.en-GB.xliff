@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="de" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="5037437391296624618" datatype="html">
+        <source>Information</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/_model/dialog-data.ts</context>
+          <context context-type="linenumber">58</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8720977247725652816" datatype="html">
+        <source>Ok</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/_model/dialog-data.ts</context>
+          <context context-type="linenumber">60</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/_model/dialog-data.ts</context>
+          <context context-type="linenumber">68</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/_model/dialog-data.ts</context>
+          <context context-type="linenumber">76</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1519954996184640001" datatype="html">
+        <source>Error</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/_model/dialog-data.ts</context>
+          <context context-type="linenumber">66</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6026586747124992284" datatype="html">
+        <source>Debug Message</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/_model/dialog-data.ts</context>
+          <context context-type="linenumber">74</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1234709746630139322" datatype="html">
+        <source>Confirmation</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/_model/dialog-data.ts</context>
+          <context context-type="linenumber">82</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/_model/dialog-data.ts</context>
+          <context context-type="linenumber">91</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3542042671420335679" datatype="html">
+        <source>No</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/_model/dialog-data.ts</context>
+          <context context-type="linenumber">84</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/_model/dialog-data.ts</context>
+          <context context-type="linenumber">93</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2807800733729323332" datatype="html">
+        <source>Yes</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/_model/dialog-data.ts</context>
+          <context context-type="linenumber">85</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/_model/dialog-data.ts</context>
+          <context context-type="linenumber">94</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8321702175940480370" datatype="html">
+        <source>dd.MM.yyyy</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/_model/lang-data.ts</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/classes/utils.ts</context>
+          <context context-type="linenumber">137</context>
+        </context-group>
+        <note priority="1" from="description">this is the dateformat, please use dd for days, MM for months and yyyy for year. It has to be the english formatstring.</note>
+      </trans-unit>
+      <trans-unit id="9092306029835436845" datatype="html">
+        <source>dd.MM.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/_model/lang-data.ts</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+        <note priority="1" from="description">this is the dateformat, please use dd for days, MM for months and no year. It has to be the english formatstring.</note>
+      </trans-unit>
+      <trans-unit id="6899006172769799970" datatype="html">
+        <source>There was no answer within <x id="PH" equiv-text="params.timeout / 1000"/> seconds at <x id="PH_1" equiv-text="url"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/_services/globals.service.ts</context>
+          <context context-type="linenumber">224</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7351700212933699939" datatype="html">
+        <source>The file <x id="PH" equiv-text="filename"/> was downloaded from Dropbox.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/_services/sync/dropbox.service.ts</context>
+          <context context-type="linenumber">142</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1799878284198173341" datatype="html">
+        <source>The file <x id="PH" equiv-text="filename"/> was not uploaded, since the content didn&apos;t change.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/_services/sync/dropbox.service.ts</context>
+          <context context-type="linenumber">179</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2566917109822382269" datatype="html">
+        <source>The file <x id="PH" equiv-text="filename"/> was uploaded to Dropbox.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/_services/sync/dropbox.service.ts</context>
+          <context context-type="linenumber">184</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1232839296875773478" datatype="html">
+        <source>Access to Dropbox could not be established again.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/_services/sync/dropbox.service.ts</context>
+          <context context-type="linenumber">297</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="730703184011067892" datatype="html">
+        <source>Dropbox</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/_services/sync/sync.service.ts</context>
+          <context context-type="linenumber">50</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5125540569203253391" datatype="html">
+        <source>The connection to <x id="PH" equiv-text="serviceName"/> requires a confirmation
+                      that <x id="PH_1" equiv-text="GLOBALS.appTitle"/> can read and write the data from
+                       <x id="PH_2" equiv-text="serviceName"/>. This confirmation is requested with special
+                        dialogs from <x id="PH_3" equiv-text="serviceName"/>. Everything that has to be
+                        confirmed there is beyond <x id="PH_4" equiv-text="GLOBALS.appTitle"/>&apos;s control.
+                         Should the confirmation process be started?</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/_services/sync/sync.service.ts</context>
+          <context context-type="linenumber">69,74</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8550844560794870731" datatype="html">
+        <source>Do you want to unsync with Dropbox?</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/_services/sync/sync.service.ts</context>
+          <context context-type="linenumber">88</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5592728170528035191" datatype="html">
+        <source><x id="PH" equiv-text="hours"/>:<x id="PH_1" equiv-text="Utils.pad(-minutes % 60)"/> hours ago</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/classes/utils.ts</context>
+          <context context-type="linenumber">94</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3625099266824380912" datatype="html">
+        <source>in <x id="PH" equiv-text="hours"/>:<x id="PH_1" equiv-text="Utils.pad(minutes % 60)"/> hours</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/classes/utils.ts</context>
+          <context context-type="linenumber">96</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8256466313580256940" datatype="html">
+        <source><x id="PH" equiv-text="-minutes"/> min ago</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/classes/utils.ts</context>
+          <context context-type="linenumber">99</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2644027207588859009" datatype="html">
+        <source>in <x id="PH" equiv-text="minutes"/> min</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/classes/utils.ts</context>
+          <context context-type="linenumber">99</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3415838826182695013" datatype="html">
+        <source><x id="TAG_IMG" ctype="image" equiv-text="&lt;img alt=&quot;favicon&quot; src=&quot;{{data.favicon}}&quot;&gt;"/> Link </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/config-link/config-link.component.html</context>
+          <context context-type="linenumber">5,7</context>
+        </context-group>
+        <note priority="1" from="description">title for configlink dialog</note>
+      </trans-unit>
+      <trans-unit id="8308045076391224954" datatype="html">
+        <source>Url</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/config-link/config-link.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4077520913910941990" datatype="html">
+        <source>Label</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/config-link/config-link.component.html</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="314315645942131479" datatype="html">
+        <source>Info</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/config-link/config-link.component.html</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3768927257183755959" datatype="html">
+        <source>Save</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/config-link/config-link.component.html</context>
+          <context context-type="linenumber">37</context>
+        </context-group>
+        <note priority="1" from="description">buttonlabel for saving data</note>
+      </trans-unit>
+      <trans-unit id="5571821262318156307" datatype="html">
+        <source>never visited</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/link-card/link-card.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3493323219410337551" datatype="html">
+        <source>Do you really want to delete this link?</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/link-card/link-card.component.ts</context>
+          <context context-type="linenumber">37</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/main/main.component.ts</context>
+          <context context-type="linenumber">66</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8245636934809197771" datatype="html">
+        <source>Once upon a time...</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/whats-new/whats-new.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+        <note priority="1" from="description">title of whatsnew</note>
+      </trans-unit>
+      <trans-unit id="2724055831234181057" datatype="html">
+        <source>Version</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/whats-new/whats-new.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+        <note priority="1" from="description">version</note>
+      </trans-unit>
+      <trans-unit id="8946691832586567504" datatype="html">
+        <source>1.0.0 - 23.03.2023</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/whats-new/whats-new.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+        <note priority="1" from="description">v100</note>
+      </trans-unit>
+      <trans-unit id="3914661488603007439" datatype="html">
+        <source> Initial Version, everything is new! </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/whats-new/whats-new.component.html</context>
+          <context context-type="linenumber">15,17</context>
+        </context-group>
+        <note priority="1" from="description">v100a1</note>
+      </trans-unit>
+      <trans-unit id="1218656448576107723" datatype="html">
+        <source>Colorselection</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/controls/color-picker/color-picker-dialog.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6009512592400101890" datatype="html">
+        <source> With the button to the bottom right an image<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/>can be loaded. From this you can<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/>select a color. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/controls/color-picker/color-picker-image/color-picker-image.component.html</context>
+          <context context-type="linenumber">3,5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8026176613641286090" datatype="html">
+        <source>The file has <x id="PH" equiv-text="file.size"/> Bytes, but may have a maximum of <x id="PH_1" equiv-text="this.data.maxFilesize"/> Bytes.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/controls/color-picker/color-picker-image/color-picker-image.component.ts</context>
+          <context context-type="linenumber">99</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

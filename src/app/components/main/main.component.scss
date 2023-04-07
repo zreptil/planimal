@@ -1,0 +1,99 @@
+:host {
+  display: flex;
+}
+
+[mainpanel] {
+  display: flex;
+  flex-flow: column;
+  flex: 1;
+}
+
+[toolbar] {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 3em;
+  width: 100vw;
+  background-color: var(--mainToolbarBack);
+  color: var(--mainToolbarFore);
+
+  [controls] {
+    img {
+      width: 1.7em;
+    }
+  }
+
+  .title {
+    display: flex;
+    flex-flow: row;
+    flex: 1;
+    font-size: 200%;
+    font-weight: 600;
+    color: var(--titleFore);
+    cursor: pointer;
+    padding-left: 25%;
+
+    .titlehidden {
+      color: var(--mainToolbarBack);
+    }
+  }
+
+  .title:hover {
+    color: var(--titleFore);
+    text-shadow: 0 0 0.05em var(--titleGlow), 0 0 0.2em var(--titleGlow), 0 0 0.4em var(--titleGlow)
+  }
+}
+
+[sidebar] {
+  width: 25%;
+}
+
+[contentpanel] {
+  display: flex;
+  flex: 1;
+  flex-flow: row;
+  overflow: hidden;
+
+  [frame] {
+    height: 2px;
+    background-color: black;
+  }
+
+  [sidebar] {
+    background-image: linear-gradient(var(--mainToolbarBack) 0%, var(--mainSidebarBottom) 75%);
+    display: flex;
+    flex-flow: column;
+    background-color: var(--mainToolbarBack);
+    color: var(--primaryFore);
+
+    [controls] {
+      display: flex;
+      flex-flow: row;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
+  [contentback] {
+    background-color: var(--contentPanelFrame);
+    padding: 2px 0 0 2px;
+
+    display: flex;
+    flex: 1;
+
+    [content] {
+      display: flex;
+      flex-flow: column;
+      flex: 1;
+      background-color: var(--mainContentBack);
+      color: var(--mainContentFore);
+      overflow-y: auto;
+    }
+  }
+}
+
+#mark {
+  position: absolute;
+  z-index: 1000;
+  border-radius: 0.5em;
+}

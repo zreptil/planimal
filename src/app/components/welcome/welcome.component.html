@@ -1,0 +1,19 @@
+<section (click)="globals.currentPage='charselect'" id="main">
+  <div class="text">
+    <section class="headline">Welcome to {{globals.appTitle}}</section>
+    <section style="font-size:75%">click anywhere to close page</section>
+  </div>
+  <section class="title">What does <i>{{globals.appTitle}}</i> mean?</section>
+  <section class="text">
+  </section>
+  <section class="title">What can i do here?</section>
+  <section class="text">
+  </section>
+  <section class="title">How do i use this page?</section>
+  <section class="text">
+    <span (mouseout)="hideMark()" (mouseover)="showMark('#showchars')">Icon</span>
+  </section>
+  <section class="title">How do you get such a braindea...dicated idea?</section>
+  <section class="text">
+  </section>
+</section>

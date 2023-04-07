@@ -1,0 +1,71 @@
+.dialog-text {
+  div {
+    margin: 0.5em 0;
+  }
+
+  ::ng-deep .mark {
+    font-weight: bold;
+  }
+}
+
+[spacer] {
+  flex: 1 1 auto;
+}
+
+::ng-deep .dialog-box {
+  max-height: 90vh;
+  min-width: 30vw;
+  max-width: 90vw !important;
+
+  .cdk-drag {
+    display: flex;
+    flex-flow: column;
+    max-width: 90vw;
+    overflow-x: hidden;
+  }
+
+  mat-dialog-container {
+    padding: 0;
+
+    [mat-dialog-title] {
+      cursor: move;
+      padding: 0.6em;
+      display: flex;
+      flex-flow: row;
+      align-items: center;
+      justify-content: space-between;
+      margin: 0;
+
+      h1 {
+        display: flex;
+        gap: 0.5em;
+        align-items: center;
+        margin: 0;
+        font-size: 1.4em;
+        font-weight: normal;
+      }
+    }
+
+    mat-dialog-content {
+      padding: 1em;
+      margin: 0;
+      font-size: 1.2em;
+      min-width: 50%;
+    }
+
+    mat-dialog-actions {
+      margin: 0;
+      padding: 0;
+      min-height: 3em;
+      justify-content: space-between;
+
+      .mat-button-wrapper {
+        display: flex;
+        flex-flow: row;
+        align-items: center;
+        justify-content: center;
+        gap: 1em;
+      }
+    }
+  }
+}

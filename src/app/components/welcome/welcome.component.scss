@@ -1,0 +1,62 @@
+:host {
+  display: flex;
+  flex: 1;
+  background: #ffffff;
+}
+
+#main {
+  background: #ffffff;
+  overflow: auto;
+  padding: 15px 10px;
+}
+
+.headline {
+  font-weight: 900;
+}
+
+.title {
+  color: #606060;
+  padding-top: 15px;
+  font-weight: 600;
+}
+
+.text {
+  font-size: 80%;
+  padding: 2px;
+  text-align: justify;
+}
+
+.caution {
+  color: #ff0000;
+  font-size: 125%;
+  font-weight: 900
+}
+
+paper-fab::shadow iron-icon {
+  fill: #000000;
+}
+
+.headline {
+  font-size: 150%;
+}
+
+span {
+  display: inline;
+
+  mat-icon {
+    width: 1.2em;
+    font-size: 1.5em;
+    vertical-align: middle;
+  }
+
+  img {
+    width: 1em;
+    font-size: 1.5em;
+    vertical-align: middle;
+    padding-right: 0.2em;
+  }
+
+  white-space: break-spaces;
+  font-weight: 600;
+  cursor: default;
+}
